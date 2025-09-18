@@ -1,0 +1,8 @@
+Git workflow for TaskApp project:
+
+1. git init
+2. git add .
+3. git commit -m "Complete TaskApp with signup, mail, users list, and workflow"
+4. git branch -M main
+5. git remote add origin https://github.com/Tori-jnr/API.git
+6. git push -u origin main
