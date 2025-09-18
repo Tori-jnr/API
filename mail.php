@@ -2,16 +2,16 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$servername = "localhost";
-$username   = "root";     // change if needed
-$password   = "MariaDB";         // put your root password if you set one
-$dbname     = "taskapp";
+//$servername = "localhost";
+//$username   = "root";     // change if needed
+//$password   = "MariaDB";         // put your root password if you set one
+//$dbname     = "taskapp";
 
 // connect to DB
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("DB connection failed: " . $conn->connect_error);
-}
+//$conn = new mysqli($servername, $username, $password, $dbname);
+//if ($conn->connect_error) {
+   // die("DB connection failed: " . $conn->connect_error);
+//}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name  = $_POST['name'] ?? '';
